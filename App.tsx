@@ -86,7 +86,7 @@ const App: React.FC = () => {
         <TextInput
           value={tag}
           onChangeText={value => setTag(value)}
-          placeholder="Enter tags separated by comma"
+          placeholder="Enter a tag from above to fetch blog posts"
         />
       </View>
       <View>
